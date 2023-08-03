@@ -1,6 +1,6 @@
 {
   "name": "stock-oracle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Predict stock prices using neural networks trained on historical price data.",
   "repository": "https://github.com/losparviero/stock-price-prediction.git",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node lib/index.js",
+    "start": "npm ci && node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
