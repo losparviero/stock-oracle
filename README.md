@@ -6,7 +6,7 @@ Predict stock prices using neural networks trained on historical price data.
 
 ### Mechanism
 
-Uses financialmarketsprep data API (free upto 250 calls) to fetch historical records, caches data in redis to prevent duplicate calls, trains a NN using brain.js and then predicts future stock prices.
+Uses financialmodellingsprep data API (free upto 250 calls) to fetch historical records, caches data in redis to prevent duplicate calls, trains a NN using brain.js and then predicts future stock prices.
 
 <br>
 
@@ -28,7 +28,7 @@ npm i -g stock-oracle
 ENV reference
 </summary>
 <br>
-API_KEY - financialmarketsprep API key
+API_KEY - financialmodellingsprep API key
 
 DB_URL - redis URL (Upstash)
 </details>
